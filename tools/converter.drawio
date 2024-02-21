@@ -1,440 +1,248 @@
-<mxfile host="app.diagrams.net" modified="2024-02-15T14:50:23.422Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="2u02nZtuRnArHSzH5A_V" version="23.1.1" type="github">
-  <diagram name="Page-1" id="rc2w1ViO4SwAH4gsUvoJ">
-    <mxGraphModel dx="2721" dy="923" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+<mxfile host="app.diagrams.net" modified="2024-02-21T06:27:05.621Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="zsOJIvJ5eojZ3pOtymTA" version="23.1.4" type="github">
+  <diagram name="Page-1" id="sfJQUk0gTk8hccNelXfM">
+    <mxGraphModel dx="2093" dy="1773" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="ei1pIP2o1uee5ukMiUAw-1" value="Application Boot Up&lt;span style=&quot;font-size: medium; text-align: start;&quot;&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="300" y="10" width="120" height="60" as="geometry" />
+        <mxCell id="qKqT06ToFwDQrQFkL8rC-70" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-260" y="-110" width="1080" height="750" as="geometry" />
         </mxCell>
-        <mxCell id="ei1pIP2o1uee5ukMiUAw-2" value="Key Cloack Auth take token and call api GET&lt;br&gt;&lt;br&gt;: &lt;span style=&quot;text-align: start; font-size: 12pt; font-family: Calibri, sans-serif;&quot;&gt;&lt;a style=&quot;color: rgb(5, 99, 193);&quot; href=&quot;https://gh20-dev-ml-02.guardhat.net/io/api/v2/message-processing/org-device-model&quot;&gt;&lt;span lang=&quot;EN-US&quot;&gt;https://gh20-dev-ml-02.guardhat.net/io/api/v2/message-processing/org-device-model&lt;/span&gt;&lt;/a&gt;&lt;/span&gt;&lt;span style=&quot;font-size: medium; text-align: start;&quot;&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="60" y="120" width="630" height="70" as="geometry" />
+        <mxCell id="qKqT06ToFwDQrQFkL8rC-1" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="270" y="40" width="440" height="440" as="geometry" />
         </mxCell>
-        <mxCell id="ei1pIP2o1uee5ukMiUAw-3" value="each device model&amp;nbsp;&lt;br&gt;start: process" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="300" y="210" width="120" height="60" as="geometry" />
+        <mxCell id="qKqT06ToFwDQrQFkL8rC-25" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="290" y="80" width="410" height="340" as="geometry" />
         </mxCell>
-        <mxCell id="ei1pIP2o1uee5ukMiUAw-4" value="call api to get device model detail&amp;nbsp;io url&lt;p style=&quot;margin: 0cm; font-size: 12pt; font-family: Calibri, sans-serif; text-align: start;&quot; class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;font-family: &amp;quot;Segoe UI&amp;quot;, sans-serif; color: rgb(33, 37, 41); background: white;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;a style=&quot;color: rgb(5, 99, 193);&quot; href=&quot;https://gh20-dev-ml-02.guardhat.net/io/api/v2/device-models/82/detail&quot;&gt;&lt;span style=&quot;font-family: &amp;quot;Segoe UI&amp;quot;, sans-serif; background: white;&quot;&gt;https://gh20-dev-ml-02.guardhat.net/io/api/v2/device-models/82/detail&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot;font-family: &amp;quot;Segoe UI&amp;quot;, sans-serif; color: rgb(33, 37, 41); background: white;&quot;&gt;&lt;/span&gt;&lt;/p&gt;&lt;span style=&quot;text-align: start; font-size: 12pt; font-family: Calibri, sans-serif;&quot;&gt;&lt;/span&gt;&lt;span style=&quot;text-align: start; font-size: 12pt; font-family: Calibri, sans-serif;&quot;&gt;&lt;/span&gt;&lt;span style=&quot;font-size: medium; text-align: start;&quot;&gt;&lt;/span&gt;&lt;span style=&quot;font-size: medium; text-align: start;&quot;&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="92" y="300" width="536" height="60" as="geometry" />
+        <mxCell id="qKqT06ToFwDQrQFkL8rC-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.659;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="qKqT06ToFwDQrQFkL8rC-3" target="qKqT06ToFwDQrQFkL8rC-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ei1pIP2o1uee5ukMiUAw-5" value="in response:&amp;nbsp;DeviceModelsResponse:&amp;nbsp;BaseResponse: List: OrgConfigValueResponse: name: config" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="92" y="390" width="566" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="ei1pIP2o1uee5ukMiUAw-6" value="compare config name ans store it in map :&amp;nbsp;USERNAME, MQTT_BROKER, PASSWORD, TOPIC_NAME&lt;span style=&quot;font-size: medium; text-align: start;&quot;&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="230" y="470" width="310" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="ei1pIP2o1uee5ukMiUAw-7" value="get&amp;nbsp;MessageTypeConverterDetailedResponse: name: messageTypeConverters&lt;span style=&quot;font-size: medium; text-align: start;&quot;&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="110" y="555" width="510" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="ei1pIP2o1uee5ukMiUAw-8" value="check&amp;nbsp;DeviceModelsResponse:&amp;nbsp;DataProtocolResponse: name: dataProtocols" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="205" y="630" width="360" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="ei1pIP2o1uee5ukMiUAw-9" value="if empty dont process" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="620" y="630" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="ei1pIP2o1uee5ukMiUAw-10" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="ei1pIP2o1uee5ukMiUAw-8" target="ei1pIP2o1uee5ukMiUAw-9" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="390" y="700" as="sourcePoint" />
-            <mxPoint x="440" y="650" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="ei1pIP2o1uee5ukMiUAw-11" value="iterate messageTypeConverters" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="120" y="710" width="270" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="ei1pIP2o1uee5ukMiUAw-12" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.178;entryY=-0.058;entryDx=0;entryDy=0;exitX=0.094;exitY=0.975;exitDx=0;exitDy=0;entryPerimeter=0;exitPerimeter=0;" parent="1" source="ei1pIP2o1uee5ukMiUAw-7" target="ei1pIP2o1uee5ukMiUAw-11" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="390" y="840" as="sourcePoint" />
-            <mxPoint x="440" y="790" as="targetPoint" />
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="ei1pIP2o1uee5ukMiUAw-13" value="Compare &lt;br&gt;MessageTypeConverterDetailedResponse:&amp;nbsp;MessageTypesResponse: name: toMessageTypes&lt;br&gt;CapabilityResponse:&amp;nbsp;MessageTypeDetailedResponse: name:&amp;nbsp;messageTypes" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="280" y="800" width="690" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="ei1pIP2o1uee5ukMiUAw-16" value="if matched" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="130" y="890" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="ei1pIP2o1uee5ukMiUAw-17" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.177;exitY=1.058;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="ei1pIP2o1uee5ukMiUAw-13" target="ei1pIP2o1uee5ukMiUAw-16" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="390" y="980" as="sourcePoint" />
-            <mxPoint x="440" y="930" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="ei1pIP2o1uee5ukMiUAw-18" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="ei1pIP2o1uee5ukMiUAw-16" target="ei1pIP2o1uee5ukMiUAw-22" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="390" y="980" as="sourcePoint" />
-            <mxPoint x="320" y="990" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="ei1pIP2o1uee5ukMiUAw-21" value="true" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="ei1pIP2o1uee5ukMiUAw-18" vertex="1" connectable="0">
-          <mxGeometry x="-0.1004" y="-4" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="ei1pIP2o1uee5ukMiUAw-19" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.133;entryY=1.058;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="ei1pIP2o1uee5ukMiUAw-16" target="ei1pIP2o1uee5ukMiUAw-11" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="170" y="880" as="sourcePoint" />
-            <mxPoint x="440" y="930" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="ei1pIP2o1uee5ukMiUAw-20" value="false&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="ei1pIP2o1uee5ukMiUAw-19" vertex="1" connectable="0">
-          <mxGeometry x="-0.0468" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="ei1pIP2o1uee5ukMiUAw-22" value="get topic detail&amp;nbsp;&lt;br&gt;capability:&amp;nbsp;&lt;a style=&quot;font-family: Calibri, sans-serif; font-size: 12pt; text-align: start; background-color: initial; color: rgb(5, 99, 193);&quot; href=&quot;https://gh20-dev-ml-02.guardhat.net/io/api/v2/topic-name/persist?id=45&amp;amp;orgId=12&amp;amp;persistStore=capability&quot;&gt;https://gh20-dev-ml-02.guardhat.net/io/api/v2/topic-name/persist?id=45&amp;amp;orgId=12&amp;amp;persistStore=capability&lt;/a&gt;&lt;p style=&quot;margin: 0cm; font-size: 12pt; font-family: Calibri, sans-serif; text-align: start;&quot; class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;font-family: &amp;quot;Segoe UI&amp;quot;, sans-serif; color: rgb(33, 37, 41); background: white;&quot;&gt;&lt;/span&gt;&lt;/p&gt;raw:&amp;nbsp;&lt;a style=&quot;font-family: Calibri, sans-serif; font-size: 12pt; text-align: start; background-color: initial; color: rgb(5, 99, 193);&quot; href=&quot;https://gh20-dev-ml-02.guardhat.net/io/api/v2/topic-name/persist?id=45&amp;amp;orgId=12&amp;amp;persistStore=raw&quot;&gt;https://gh20-dev-ml-02.guardhat.net/io/api/v2/topic-name/persist?id=45&amp;amp;orgId=12&amp;amp;persistStore=raw&lt;/a&gt;&lt;p style=&quot;margin: 0cm; font-size: 12pt; font-family: Calibri, sans-serif; text-align: start;&quot; class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;font-family: &amp;quot;Segoe UI&amp;quot;, sans-serif; color: rgb(33, 37, 41); background: white;&quot;&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0cm; font-size: 12pt; font-family: Calibri, sans-serif; text-align: start;&quot; class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;font-family: &amp;quot;Segoe UI&amp;quot;, sans-serif; color: rgb(33, 37, 41); background: white;&quot;&gt;&lt;/span&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-20" y="1040" width="925" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="ei1pIP2o1uee5ukMiUAw-23" value="if&amp;nbsp;dataProtocol: name:&amp;nbsp;&lt;span style=&quot;font-size: medium; text-align: start;&quot;&gt;&lt;/span&gt;MQTT_PULL, MQTT_PUSH" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="69" y="1130" width="340" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="ei1pIP2o1uee5ukMiUAw-24" value="if&amp;nbsp;dataProtocol: name: HTTP_STREAM" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="515" y="1130" width="280" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="ei1pIP2o1uee5ukMiUAw-25" value="if&amp;nbsp;dataProtocol: name:&amp;nbsp;&lt;span style=&quot;font-size: medium; text-align: start;&quot;&gt;&lt;/span&gt;MQTT_PULL, MQTT_PUSH" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1160" width="340" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="ei1pIP2o1uee5ukMiUAw-26" value="Check if existing thread running using same detail (orgId,deviceModelId,converterId)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1241" y="80" width="249" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="ei1pIP2o1uee5ukMiUAw-27" value="if yes dont do anything" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1080" y="80" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="ei1pIP2o1uee5ukMiUAw-28" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="ei1pIP2o1uee5ukMiUAw-26" target="ei1pIP2o1uee5ukMiUAw-27" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1040" y="230" as="sourcePoint" />
-            <mxPoint x="1090" y="180" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="ei1pIP2o1uee5ukMiUAw-29" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="ei1pIP2o1uee5ukMiUAw-26" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1040" y="230" as="sourcePoint" />
-            <mxPoint x="1300" y="170" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="ei1pIP2o1uee5ukMiUAw-30" value="start a thread: pass configs, deviceModelId, capability, data protocol, MQTT detail from config file, all topic detail" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1100" y="170" width="410" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="ei1pIP2o1uee5ukMiUAw-31" value="Start : MQTT Client with unique client id, subscribe to a topic&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1100" y="250" width="250" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="ei1pIP2o1uee5ukMiUAw-32" value="GuardhatMQTTCallback: handler: when message receive from MQTT&lt;span style=&quot;font-size: medium; text-align: start;&quot;&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1090" y="330" width="420" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="ei1pIP2o1uee5ukMiUAw-33" value="From Topic Message Recieve&lt;br&gt;Convert topic message to string msgSourceJson&lt;span style=&quot;font-size: medium; text-align: start;&quot;&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1090" y="410" width="320" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="ei1pIP2o1uee5ukMiUAw-34" value="Start New Thread:&amp;nbsp;MessageProcessingService&lt;span style=&quot;font-size: medium; text-align: start;&quot;&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1190" y="495" width="340" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="ei1pIP2o1uee5ukMiUAw-35" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="ei1pIP2o1uee5ukMiUAw-33" target="ei1pIP2o1uee5ukMiUAw-34" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1040" y="490" as="sourcePoint" />
-            <mxPoint x="1090" y="440" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="ei1pIP2o1uee5ukMiUAw-36" value="check converter&lt;br&gt;MessageTypeConverterDetailedResponse:&amp;nbsp;MessageTypeConverterFlowType: name: flow type" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1649" y="570" width="450" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="ei1pIP2o1uee5ukMiUAw-37" value="if&amp;nbsp;SWITCH_BY_CONTROL_VARIABLE&lt;br&gt;=flowType&lt;span style=&quot;font-size: medium; text-align: start;&quot;&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1699" y="650" width="240" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="ei1pIP2o1uee5ukMiUAw-38" value="get MessageTypeConverterDetailedResponse:&amp;nbsp;controlVariableName&lt;br&gt;get MessageTypeConverterDetailedResponse:&amp;nbsp;controlVariableValue" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1959" y="650" width="400" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="ei1pIP2o1uee5ukMiUAw-39" value="if variable not start with &quot;$.&quot; append it" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1959" y="720" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="ei1pIP2o1uee5ukMiUAw-40" value="get value of&amp;nbsp;variableName from topic message" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1959" y="790" width="260" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="ei1pIP2o1uee5ukMiUAw-41" value="if value not match with controlVariableValue&lt;br&gt;&lt;br&gt;exit" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="2259" y="790" width="210" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="ei1pIP2o1uee5ukMiUAw-42" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="ei1pIP2o1uee5ukMiUAw-41" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="2219" y="820" as="sourcePoint" />
-            <mxPoint x="1859" y="770" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="ei1pIP2o1uee5ukMiUAw-43" value="get&amp;nbsp;MessageTypeConverterDetailedResponse:&amp;nbsp;MessageTypesResponse:&amp;nbsp;toMessageTypes&lt;br&gt;get&amp;nbsp;MessageTypeConverterDetailedResponse:&amp;nbsp;MessageTypesResponse: fromMessageTypes" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1699" y="870" width="580" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="ei1pIP2o1uee5ukMiUAw-44" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="ei1pIP2o1uee5ukMiUAw-37" target="ei1pIP2o1uee5ukMiUAw-38" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1809" y="820" as="sourcePoint" />
-            <mxPoint x="1859" y="770" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="ei1pIP2o1uee5ukMiUAw-45" value="get&amp;nbsp;fromMessageType:&amp;nbsp;&lt;span style=&quot;font-size: medium; text-align: start;&quot;&gt;&lt;/span&gt;MessageTypeElementResponse:&amp;nbsp;messageTypeElements || List" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1699" y="950" width="670" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="ei1pIP2o1uee5ukMiUAw-46" value="get toMessageType:&amp;nbsp;MessageTypeElementResponse:&amp;nbsp;messageTypeElements || List" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1689" y="990" width="729" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="ei1pIP2o1uee5ukMiUAw-47" value="get&amp;nbsp;MessageTypeConverterDetailedResponse:&amp;nbsp;ElementMappingDetailedResponse: name:&amp;nbsp;elementMappings || List" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1727" y="1020" width="800" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="ei1pIP2o1uee5ukMiUAw-48" value="get toMessageType:&amp;nbsp;&amp;nbsp;sampleJson: called:&amp;nbsp;outputJson" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1580" y="1060" width="240" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="ei1pIP2o1uee5ukMiUAw-49" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.019;exitY=1.075;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="ei1pIP2o1uee5ukMiUAw-46" target="ei1pIP2o1uee5ukMiUAw-48" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1809" y="1020" as="sourcePoint" />
-            <mxPoint x="1859" y="970" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="ei1pIP2o1uee5ukMiUAw-50" value="iterate:&amp;nbsp;elementMappingList&lt;span style=&quot;font-size: medium; text-align: start;&quot;&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1959" y="1070" width="290" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="ei1pIP2o1uee5ukMiUAw-51" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.588;entryY=-0.037;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="ei1pIP2o1uee5ukMiUAw-47" target="ei1pIP2o1uee5ukMiUAw-50" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1809" y="1080" as="sourcePoint" />
-            <mxPoint x="1859" y="1030" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="ei1pIP2o1uee5ukMiUAw-53" value="elementMapping:&amp;nbsp;fromMessageTypeElementId,&amp;nbsp;toMessageTypeElementId&amp;nbsp;&lt;br&gt;match with fromMessageType id, toMessageTypeId" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="2029" y="1140" width="450" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="ei1pIP2o1uee5ukMiUAw-54" value="if&amp;nbsp;fromMsgTypeElement is empty and elementMappingList&amp;nbsp;FromMessageTypeElementId contains 0 id, and&amp;nbsp;CustomValue not empty&lt;br&gt;create a temporary&amp;nbsp;fromMsgTypeElement out of it" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="2029" y="1220" width="530" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="ei1pIP2o1uee5ukMiUAw-55" value="if&amp;nbsp;fromMsgTypeElement or&amp;nbsp;toMsgTypeElement empty&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="2029" y="1290" width="280" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="ei1pIP2o1uee5ukMiUAw-58" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;entryX=0.609;entryY=1.004;entryDx=0;entryDy=0;entryPerimeter=0;exitX=-0.006;exitY=0.583;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="ei1pIP2o1uee5ukMiUAw-55" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1899" y="1320" as="sourcePoint" />
-            <mxPoint x="2005.6099999999997" y="1109.9999999999998" as="targetPoint" />
+        <mxCell id="qKqT06ToFwDQrQFkL8rC-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="qKqT06ToFwDQrQFkL8rC-3" target="qKqT06ToFwDQrQFkL8rC-5" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-150" y="270" as="sourcePoint" />
+            <mxPoint x="-80" y="330" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1899" y="1300" />
+              <mxPoint x="-160" y="300" />
+              <mxPoint x="-120" y="300" />
+              <mxPoint x="-120" y="360" />
+              <mxPoint x="-80" y="360" />
+              <mxPoint x="-80" y="340" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="ei1pIP2o1uee5ukMiUAw-59" value="yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="ei1pIP2o1uee5ukMiUAw-58" vertex="1" connectable="0">
-          <mxGeometry x="0.0599" y="-1" relative="1" as="geometry">
+        <mxCell id="qKqT06ToFwDQrQFkL8rC-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.012;entryY=0.619;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="qKqT06ToFwDQrQFkL8rC-3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-90" y="220" as="sourcePoint" />
+            <mxPoint x="299.99999999999994" y="239.9900000000002" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qKqT06ToFwDQrQFkL8rC-3" value="" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="-160" y="200" width="20" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qKqT06ToFwDQrQFkL8rC-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" parent="1" source="qKqT06ToFwDQrQFkL8rC-4" target="qKqT06ToFwDQrQFkL8rC-10" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-10" y="-40" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-10" y="6" />
+              <mxPoint x="-9" y="6" />
+              <mxPoint x="-9" y="-40" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qKqT06ToFwDQrQFkL8rC-16" value="&lt;font style=&quot;font-size: 6px;&quot;&gt;dns look up&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="qKqT06ToFwDQrQFkL8rC-15" vertex="1" connectable="0">
+          <mxGeometry x="0.5422" y="-3" relative="1" as="geometry">
+            <mxPoint y="-5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qKqT06ToFwDQrQFkL8rC-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.033;entryY=0.166;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="qKqT06ToFwDQrQFkL8rC-4" target="qKqT06ToFwDQrQFkL8rC-26" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="160" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="50" y="90" />
+              <mxPoint x="50" y="150" />
+              <mxPoint x="240" y="150" />
+              <mxPoint x="240" y="166" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qKqT06ToFwDQrQFkL8rC-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.017;entryY=0.099;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="30" y="86.19" as="sourcePoint" />
+            <mxPoint x="299.31999999999994" y="150.00000000000017" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="165" y="86" />
+              <mxPoint x="165" y="136" />
+              <mxPoint x="250" y="136" />
+              <mxPoint x="250" y="150" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qKqT06ToFwDQrQFkL8rC-4" value="Browser" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="-50" y="50" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="qKqT06ToFwDQrQFkL8rC-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.022;entryY=0.713;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="qKqT06ToFwDQrQFkL8rC-5" target="qKqT06ToFwDQrQFkL8rC-26" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="241.51999999999998" y="265.04000000000013" as="targetPoint" />
+            <mxPoint x="-90" y="294.96" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="30" y="320" />
+              <mxPoint x="80" y="320" />
+              <mxPoint x="80" y="270" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qKqT06ToFwDQrQFkL8rC-5" value="Mobile App" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="-50" y="300" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="qKqT06ToFwDQrQFkL8rC-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="qKqT06ToFwDQrQFkL8rC-6" target="qKqT06ToFwDQrQFkL8rC-33" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qKqT06ToFwDQrQFkL8rC-6" value="Angular UI App" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="360" y="140" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="qKqT06ToFwDQrQFkL8rC-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.004;entryY=0.824;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="qKqT06ToFwDQrQFkL8rC-9" target="qKqT06ToFwDQrQFkL8rC-33" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qKqT06ToFwDQrQFkL8rC-9" value="Rest APIs&amp;nbsp;" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="360" y="240" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="qKqT06ToFwDQrQFkL8rC-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" parent="1" source="qKqT06ToFwDQrQFkL8rC-10" target="qKqT06ToFwDQrQFkL8rC-4" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="10" y="-20" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qKqT06ToFwDQrQFkL8rC-10" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;DNS (www.guardhat.net)&lt;/font&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="80" y="-60" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="qKqT06ToFwDQrQFkL8rC-22" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" parent="1" source="qKqT06ToFwDQrQFkL8rC-5" target="qKqT06ToFwDQrQFkL8rC-10" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="20" y="260" as="sourcePoint" />
+            <mxPoint x="310" y="150" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qKqT06ToFwDQrQFkL8rC-23" value="&lt;font style=&quot;font-size: 6px;&quot;&gt;dns look up&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="qKqT06ToFwDQrQFkL8rC-22" vertex="1" connectable="0">
+          <mxGeometry x="-0.0876" y="2" relative="1" as="geometry">
+            <mxPoint x="52" y="-122" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qKqT06ToFwDQrQFkL8rC-26" value="NGInx" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="300" y="135" width="40" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="qKqT06ToFwDQrQFkL8rC-28" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.028;entryY=0.644;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.97;exitY=0.336;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="qKqT06ToFwDQrQFkL8rC-26" target="qKqT06ToFwDQrQFkL8rC-6" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="260" y="260" as="sourcePoint" />
+            <mxPoint x="310" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qKqT06ToFwDQrQFkL8rC-30" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.028;entryY=0.644;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.156;exitY=0.338;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="338" y="279.5" as="sourcePoint" />
+            <mxPoint x="360" y="280.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qKqT06ToFwDQrQFkL8rC-31" value="Kyra App" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="580" y="335" width="70" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="qKqT06ToFwDQrQFkL8rC-32" value="IO - Converter App" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="440" y="330" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qKqT06ToFwDQrQFkL8rC-33" value="IO- APP" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="470" y="180" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="qKqT06ToFwDQrQFkL8rC-34" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.605;exitY=-0.003;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="qKqT06ToFwDQrQFkL8rC-32" target="qKqT06ToFwDQrQFkL8rC-33" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="270" as="sourcePoint" />
+            <mxPoint x="450" y="220" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="540" y="250" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qKqT06ToFwDQrQFkL8rC-35" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" parent="1" target="qKqT06ToFwDQrQFkL8rC-31" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560" y="230" as="sourcePoint" />
+            <mxPoint x="645" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qKqT06ToFwDQrQFkL8rC-45" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="620" y="90" width="70" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="qKqT06ToFwDQrQFkL8rC-40" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;PostgreSQL&lt;/font&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="630" y="100" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="qKqT06ToFwDQrQFkL8rC-42" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;MongoDB&lt;/font&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="630" y="170" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="qKqT06ToFwDQrQFkL8rC-46" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.851;exitY=0.028;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.005;entryY=0.949;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="qKqT06ToFwDQrQFkL8rC-32" target="qKqT06ToFwDQrQFkL8rC-45" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="620" y="227.22679129683445" as="sourcePoint" />
+            <mxPoint x="542.31" y="232.7800000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qKqT06ToFwDQrQFkL8rC-48" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=1.008;exitY=0.464;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="qKqT06ToFwDQrQFkL8rC-33" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="570" y="240" as="sourcePoint" />
+            <mxPoint x="620" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qKqT06ToFwDQrQFkL8rC-50" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.023;entryY=0.196;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" parent="1" source="qKqT06ToFwDQrQFkL8rC-31" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="666" y="453" as="sourcePoint" />
+            <mxPoint x="661.6100000000001" y="240.00000000000009" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qKqT06ToFwDQrQFkL8rC-53" value="Key Cloak Server" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="350" y="-70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qKqT06ToFwDQrQFkL8rC-54" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="483.0651020408164" y="180" as="sourcePoint" />
+            <mxPoint x="390.00387755102025" y="-10" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qKqT06ToFwDQrQFkL8rC-55" value="Authentication" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="qKqT06ToFwDQrQFkL8rC-54" vertex="1" connectable="0">
+          <mxGeometry x="0.6914" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ei1pIP2o1uee5ukMiUAw-60" value="call rest api:&amp;nbsp;&lt;br&gt;&lt;pre style=&quot;background-color:#2b2b2b;color:#a9b7c6;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;/api/v2/invoker/start/byDeviceModelId/start/byDeviceModelId&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-260" y="10" width="490" height="60" as="geometry" />
+        <mxCell id="qKqT06ToFwDQrQFkL8rC-2" value="EC2 Server 1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="580" y="50" width="120" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="ei1pIP2o1uee5ukMiUAw-61" value="fromMessageTypes:&amp;nbsp;MessageTypeDetailedResponse:&amp;nbsp;MessageTypeElementResponse: List:&lt;br&gt;name: fromMsgTypeElement:&amp;nbsp;&amp;nbsp;fullPath append&amp;nbsp;&quot;$.&quot; :&amp;nbsp;&lt;span style=&quot;font-size: medium; text-align: start;&quot;&gt;&lt;/span&gt;fromJsonPath" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="2029" y="1360" width="730" height="60" as="geometry" />
+        <mxCell id="qKqT06ToFwDQrQFkL8rC-56" value="SCC&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="520" y="-70" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ei1pIP2o1uee5ukMiUAw-62" value="value=get value of fromJsonPath from topic message&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="2139" y="1430" width="340" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="ei1pIP2o1uee5ukMiUAw-63" value="fromMessageTypes:&amp;nbsp;MessageTypeDetailedResponse:&amp;nbsp;MessageTypeElementResponse: List:&lt;br&gt;name: fromMsgTypeElement:&amp;nbsp; &lt;br&gt;if stereotype&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;=&lt;/span&gt;CUSTOM_VALUE then &lt;br&gt;value=&amp;nbsp;ElementMappingDetailedResponse:&amp;nbsp;customValue" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="2139" y="1490" width="610" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="ei1pIP2o1uee5ukMiUAw-64" value="if value==null &amp;amp;&amp;amp;&amp;nbsp;toMessageTypes:&amp;nbsp;toMsgTypeElement:&amp;nbsp;messageTypeElements:&amp;nbsp;optionality =REQUIRED&lt;br&gt;return null , don&#39;t process&lt;br&gt;&lt;span style=&quot;font-size: medium; text-align: start;&quot;&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="2139" y="1590" width="680" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="ei1pIP2o1uee5ukMiUAw-65" value="value ==null" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="2179" y="1640" width="310" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="ei1pIP2o1uee5ukMiUAw-68" value="" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="ei1pIP2o1uee5ukMiUAw-65" edge="1">
+        <mxCell id="qKqT06ToFwDQrQFkL8rC-57" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.25;exitY=0;exitDx=0;exitDy=0;" parent="1" source="qKqT06ToFwDQrQFkL8rC-33" target="qKqT06ToFwDQrQFkL8rC-56" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="2149" y="1660" as="sourcePoint" />
-            <mxPoint x="1999" y="1300" as="targetPoint" />
+            <mxPoint x="440" y="110" as="sourcePoint" />
+            <mxPoint x="490" y="60" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="580" y="10" />
+            </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="ei1pIP2o1uee5ukMiUAw-69" value="yes&lt;br&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="ei1pIP2o1uee5ukMiUAw-68" vertex="1" connectable="0">
-          <mxGeometry x="-0.1743" y="-3" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="ei1pIP2o1uee5ukMiUAw-70" value="if&amp;nbsp;fromJsonPath contains [0]" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1989" y="1690" width="280" height="36" as="geometry" />
-        </mxCell>
-        <mxCell id="ei1pIP2o1uee5ukMiUAw-71" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;exitX=0.125;exitY=1.061;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="ei1pIP2o1uee5ukMiUAw-61" target="ei1pIP2o1uee5ukMiUAw-70" edge="1">
+        <mxCell id="qKqT06ToFwDQrQFkL8rC-58" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="qKqT06ToFwDQrQFkL8rC-53" target="qKqT06ToFwDQrQFkL8rC-56" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="2249" y="1620" as="sourcePoint" />
-            <mxPoint x="2299" y="1570" as="targetPoint" />
+            <mxPoint x="440" y="110" as="sourcePoint" />
+            <mxPoint x="490" y="60" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="500" y="-40" />
+            </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="ei1pIP2o1uee5ukMiUAw-72" value="initialize&amp;nbsp;multipleMessageArray list of map" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="2019" y="1731.5" width="430" height="30" as="geometry" />
+        <mxCell id="qKqT06ToFwDQrQFkL8rC-59" value="Docker&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="300" y="90" width="120" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="ei1pIP2o1uee5ukMiUAw-73" value="fromJsonPath replace [0] to [1]&lt;br&gt;val=get value from topic message of fromJsonPath" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="2021" y="1770" width="426" height="30" as="geometry" />
+        <mxCell id="qKqT06ToFwDQrQFkL8rC-60" value="Devices" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="414" y="500" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ei1pIP2o1uee5ukMiUAw-74" value="while val is not null" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="2019" y="1810" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="ei1pIP2o1uee5ukMiUAw-75" value="toJsonPath=MessageTypeConverterDetailedResponse:&amp;nbsp;toMessageTypes:&amp;nbsp;MessageTypeDetailedResponse:&amp;nbsp;MessageTypeElementResponse: fullPath" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="2194" y="1820" width="800" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="ei1pIP2o1uee5ukMiUAw-76" value="update map key toJsonPath value to val&lt;br&gt;add this to list&lt;br&gt;fromJsonPath=fromJsonPath replace [1] to [2]&lt;br&gt;val=get value from topic message of fromJsonPath" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="2194" y="1870" width="420" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="ei1pIP2o1uee5ukMiUAw-77" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.581;entryY=1.039;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" edge="1">
+        <mxCell id="qKqT06ToFwDQrQFkL8rC-62" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="qKqT06ToFwDQrQFkL8rC-60" target="qKqT06ToFwDQrQFkL8rC-32" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="2200.9999999999995" y="1900" as="sourcePoint" />
-            <mxPoint x="2095.72" y="1872.3399999999997" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="ei1pIP2o1uee5ukMiUAw-78" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="2146" y="1840" as="sourcePoint" />
-            <mxPoint x="2200.9999999999995" y="1840" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="ei1pIP2o1uee5ukMiUAw-79" value="if&amp;nbsp;MessageTypeConverterDetailedResponse:&amp;nbsp;fromMessageTypes:&amp;nbsp;MessageTypeDetailedResponse:&amp;nbsp;MessageTypeElementResponse:&amp;nbsp;stereotype&lt;br&gt;=EXT_DEVICE_IDENTITY" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1989" y="1950" width="830" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="ei1pIP2o1uee5ukMiUAw-80" value="Call:&amp;nbsp;https://gh20-dev-ml-02.guardhat.net/io/api/v2/devices/byExternalId?extRef=test&amp;amp;orgId=12" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="2021" y="2000" width="608" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="ei1pIP2o1uee5ukMiUAw-81" value="get&amp;nbsp;DeviceResponse&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="2021" y="2050" width="178" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="ei1pIP2o1uee5ukMiUAw-82" value="dont process it" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="2418" y="2050" width="120" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="ei1pIP2o1uee5ukMiUAw-83" value="" style="endArrow=classic;html=1;rounded=0;entryX=-0.017;entryY=0.421;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="ei1pIP2o1uee5ukMiUAw-81" target="ei1pIP2o1uee5ukMiUAw-82" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="2219" y="1980" as="sourcePoint" />
-            <mxPoint x="2269" y="1930" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="ei1pIP2o1uee5ukMiUAw-84" value="null" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="ei1pIP2o1uee5ukMiUAw-83" vertex="1" connectable="0">
-          <mxGeometry x="-0.3526" y="-1" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="ei1pIP2o1uee5ukMiUAw-85" value="value=get First Device Guid" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="2021" y="2090" width="288" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="ei1pIP2o1uee5ukMiUAw-86" value="if&amp;nbsp;MessageTypeConverterDetailedResponse:&amp;nbsp;fromMessageTypes:&amp;nbsp;MessageTypeDetailedResponse:&amp;nbsp;MessageTypeElementResponse:&amp;nbsp;stereotype&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;=&amp;nbsp;TIMESTAMP" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1989" y="2150" width="840" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="ei1pIP2o1uee5ukMiUAw-87" value="MessageTypeConverterDetailedResponse:&amp;nbsp;fromMessageTypes:&amp;nbsp;MessageTypeElementResponse&amp;nbsp;:&amp;nbsp;format" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="2019" y="2205" width="730" height="25" as="geometry" />
-        </mxCell>
-        <mxCell id="ei1pIP2o1uee5ukMiUAw-88" value="if format=EPOCH&amp;nbsp;value=EPOCH timestamp&amp;nbsp;&lt;br&gt;if format=EPOCH&amp;nbsp;value=OffsetDateTime&amp;nbsp;timestamp&amp;nbsp;&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;timestamp = value&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="2021" y="2240" width="658" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="ei1pIP2o1uee5ukMiUAw-89" value="toJsonPath=toMsgTypeElement fullPath , append&amp;nbsp;&quot;$.&quot;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1989" y="2310" width="490" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="ei1pIP2o1uee5ukMiUAw-90" value="if fromJsonPath contains&amp;nbsp;alertSeverity , toJsonPath contains&amp;nbsp;header.priority , value =HIGH" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1989" y="2350" width="650" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="ei1pIP2o1uee5ukMiUAw-91" value="value =HIGH then value=2&lt;br&gt;if value!=HIGH then value =3" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="2274" y="2390" width="375" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="XzORqDxbFwmmnYt8RqeT-1" value="save in&amp;nbsp;outputJson (toMessageType sampleJson&lt;span style=&quot;background-color: initial;&quot;&gt;) ,&amp;nbsp;&lt;/span&gt;toJsonPath,&amp;nbsp;value" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1993" y="2440" width="496" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="XzORqDxbFwmmnYt8RqeT-2" value="end of iterate:&amp;nbsp;elementMappingList" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1949" y="2490" width="500" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="XzORqDxbFwmmnYt8RqeT-3" value="&lt;pre style=&quot;background-color:#2b2b2b;color:#a9b7c6;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;var messageTypeJsonPath = &lt;span style=&quot;color:#6a8759;&quot;&gt;&quot;$.DevEUI_uplink.payload.messageType&quot;&lt;/span&gt;&lt;span style=&quot;color:#cc7832;&quot;&gt;;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color:#cc7832;&quot;&gt;var &lt;/span&gt;eventTypeJsonPath = &lt;span style=&quot;color:#6a8759;&quot;&gt;&quot;$.DevEUI_uplink.payload.eventType&quot;&lt;/span&gt;&lt;span style=&quot;color:#cc7832;&quot;&gt;;&lt;/span&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="1949" y="2530" width="630" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="XzORqDxbFwmmnYt8RqeT-4" value="messageTypeValue=&amp;nbsp; get&amp;nbsp;messageTypeJsonPath from topic message" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1949" y="2580" width="400" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="XzORqDxbFwmmnYt8RqeT-5" value="MessageTypeConverterDetailedResponse:&amp;nbsp;toMessageTypes:&amp;nbsp;messageType = EVENT&amp;nbsp;&lt;br&gt;messageType= even else messageType=raw" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1949" y="2620" width="570" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="XzORqDxbFwmmnYt8RqeT-6" value="messageTypeValue == EVENT" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1949" y="2660" width="410" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="XzORqDxbFwmmnYt8RqeT-7" value="&lt;pre style=&quot;background-color:#2b2b2b;color:#a9b7c6;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt; eventTypeValue from message topic of eventTypeJsonPath&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2265" y="2700" width="524" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="XzORqDxbFwmmnYt8RqeT-8" value="&lt;pre style=&quot;background-color:#2b2b2b;color:#a9b7c6;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt; eventTypeValue == SOS_MODE_START or SOS_MODE_END&lt;/pre&gt;&lt;pre style=&quot;background-color:#2b2b2b;color:#a9b7c6;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;update outputJson with &quot;$.header.type&quot;, &lt;span style=&quot;font-size: 9.8pt; color: rgb(106, 135, 89);&quot;&gt;&quot;EVENT&quot;&lt;/span&gt;&lt;/pre&gt;&lt;pre style=&quot;background-color:#2b2b2b;color:#a9b7c6;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;&quot;$.header.msgCode&quot;&lt;span style=&quot;color:#cc7832;&quot;&gt;, &lt;/span&gt;&lt;span style=&quot;color:#6a8759;&quot;&gt;&quot;EX000&quot;&lt;/span&gt;&lt;/pre&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;&quot;$.header.activated&quot;&lt;span style=&quot;color:#cc7832;&quot;&gt;, true&lt;/span&gt;&lt;/pre&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2268" y="2740" width="531" height="110" as="geometry" />
-        </mxCell>
-        <mxCell id="XzORqDxbFwmmnYt8RqeT-9" value="update outputJson ,$.deviceMsgId , missing" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1949" y="2853" width="290" height="37" as="geometry" />
-        </mxCell>
-        <mxCell id="XzORqDxbFwmmnYt8RqeT-10" value="add&amp;nbsp;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;response message list : outjson, guid, message type, timestamp" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1949" y="2910" width="500" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="XzORqDxbFwmmnYt8RqeT-11" value="iterate List of Map add detail into response message" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1949" y="2950" width="500" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="XzORqDxbFwmmnYt8RqeT-12" value="message list completed" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2119" y="3010" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="XzORqDxbFwmmnYt8RqeT-13" value="Collect Message" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1210" y="577.5" width="320" height="45" as="geometry" />
-        </mxCell>
-        <mxCell id="XzORqDxbFwmmnYt8RqeT-14" value="" style="endArrow=classic;html=1;rounded=0;entryX=-0.004;entryY=0.428;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="XzORqDxbFwmmnYt8RqeT-13" target="ei1pIP2o1uee5ukMiUAw-36">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1480" y="570" as="sourcePoint" />
-            <mxPoint x="1530" y="520" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="XzORqDxbFwmmnYt8RqeT-15" value="Publish Message&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1210" y="640" width="320" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="XzORqDxbFwmmnYt8RqeT-16" value="get guid from message first element&lt;br&gt;configs, converter,&amp;nbsp;receivedMessage(topic message),&lt;br&gt;&amp;nbsp;list of&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;messages, guid, device model id ,org id,&amp;nbsp;capabilityMessageTopic&lt;/span&gt;&lt;span style=&quot;background-color: initial; font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; color: rgb(204, 120, 50);&quot;&gt;, &lt;/span&gt;&lt;span style=&quot;background-color: initial; font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; color: rgb(152, 118, 170);&quot;&gt;rawMessageTopic&lt;/span&gt;&lt;span style=&quot;background-color: initial; font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; color: rgb(204, 120, 50);&quot;&gt;, &lt;/span&gt;&lt;span style=&quot;background-color: initial; font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; color: rgb(152, 118, 170);&quot;&gt;capabilityId&lt;/span&gt;&lt;span style=&quot;background-color: initial; font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; color: rgb(204, 120, 50);&quot;&gt;, &lt;/span&gt;&lt;span style=&quot;background-color: initial; font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; color: rgb(152, 118, 170);&quot;&gt;mqttCoreConfig&lt;/span&gt;&lt;span style=&quot;background-color: initial; font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; color: rgb(204, 120, 50);&quot;&gt;, &lt;/span&gt;&lt;span style=&quot;background-color: initial; font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; color: rgb(152, 118, 170);&quot;&gt;gh2ApiClient&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1210.5" y="690" width="310" height="119.23" as="geometry" />
-        </mxCell>
-        <mxCell id="XzORqDxbFwmmnYt8RqeT-17" value="if capabilityId==1&amp;nbsp;topic:&amp;nbsp;&quot;guardhat/${guid}/inbound/raw&quot;&lt;br&gt;else topic:&amp;nbsp;&quot;guardhat/${guid}/inbound/event&quot;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1210" y="820" width="390" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="XzORqDxbFwmmnYt8RqeT-18" value="generate&amp;nbsp;MqttClient by random client id&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1210" y="870" width="280" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="XzORqDxbFwmmnYt8RqeT-19" value="iterate messages&amp;nbsp;&lt;br&gt;publish to client topic (guardhat/${guid}/inbound/event)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1210" y="910" width="320" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="XzORqDxbFwmmnYt8RqeT-20" value="publish to&amp;nbsp;capabilityMessageTopic" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1180" y="960" width="310" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="XzORqDxbFwmmnYt8RqeT-21" value="publish to&amp;nbsp;rawMessageTopic after appending&amp;nbsp;&lt;br&gt;payload: receive topic message&lt;br&gt;deviceGuid: guid ,orgId ,&amp;nbsp;deviceModelId ,&amp;nbsp;deviceMsgId: missing,&amp;nbsp;messageTypeId:&amp;nbsp;converter FromMessageTypeId id&amp;nbsp;&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;if timestamp null then current other taken timestamp , createdOn&amp;nbsp;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1180" y="1000" width="310" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="XzORqDxbFwmmnYt8RqeT-22" value="Call: PUT:&amp;nbsp;/api/v2/message-processing/org-device-model&amp;nbsp;&lt;br&gt;to set status=active device model&amp;nbsp;&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1180" y="1130" width="340" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="XzORqDxbFwmmnYt8RqeT-23" value="Disconnect Mqtt Core Client" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1180" y="1180" width="280" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="XzORqDxbFwmmnYt8RqeT-25" value="if&amp;nbsp;dataProtocol: name:&amp;nbsp;HTTP_STREAM" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1590" width="340" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="XzORqDxbFwmmnYt8RqeT-26" value="Check if existing SSE thread running using same detail (orgId,deviceModelId,converterId)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1560" y="80" width="280" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="XzORqDxbFwmmnYt8RqeT-27" value="dont&#39; do anything" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1880" y="75" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="XzORqDxbFwmmnYt8RqeT-28" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="XzORqDxbFwmmnYt8RqeT-26" target="XzORqDxbFwmmnYt8RqeT-27">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1720" y="130" as="sourcePoint" />
-            <mxPoint x="1770" y="80" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="XzORqDxbFwmmnYt8RqeT-29" value="yes&lt;br&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="XzORqDxbFwmmnYt8RqeT-28">
-          <mxGeometry x="-0.2143" y="1" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="XzORqDxbFwmmnYt8RqeT-30" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;Start SSE Thread pass&amp;nbsp;configsMap&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; color: rgb(204, 120, 50);&quot;&gt;, &lt;/span&gt;&lt;span style=&quot;background-color: rgb(43, 43, 43); color: rgb(169, 183, 198); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt;converter&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; color: rgb(204, 120, 50);&quot;&gt;, &lt;/span&gt;&lt;span style=&quot;background-color: rgb(43, 43, 43); color: rgb(169, 183, 198); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt;orgId&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; color: rgb(204, 120, 50);&quot;&gt;, &lt;/span&gt;&lt;span style=&quot;background-color: rgb(43, 43, 43); color: rgb(169, 183, 198); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt;extractedDeviceModelId&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; color: rgb(204, 120, 50);&quot;&gt;, &lt;/span&gt;&lt;span style=&quot;background-color: rgb(43, 43, 43); color: rgb(169, 183, 198); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt;capabilityMessageTopic&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; color: rgb(204, 120, 50);&quot;&gt;, &lt;/span&gt;&lt;span style=&quot;background-color: rgb(43, 43, 43); color: rgb(169, 183, 198); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt;rawMessageTopic&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; color: rgb(204, 120, 50);&quot;&gt;, &lt;/span&gt;&lt;span style=&quot;background-color: rgb(43, 43, 43); color: rgb(169, 183, 198); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt;capabilityId&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; color: rgb(204, 120, 50);&quot;&gt;, &lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; color: rgb(152, 118, 170);&quot;&gt;gh2ApiClient&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; color: rgb(204, 120, 50);&quot;&gt;, &lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; color: rgb(152, 118, 170);&quot;&gt;mqttCoreConfig&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; color: rgb(204, 120, 50);&quot;&gt;, &lt;/span&gt;&lt;span style=&quot;background-color: rgb(43, 43, 43); color: rgb(169, 183, 198); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt;dataProtocolName&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1569" y="170" width="431" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="XzORqDxbFwmmnYt8RqeT-31" value="&lt;pre style=&quot;background-color:#2b2b2b;color:#a9b7c6;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;expectedEventName = converter.getFromMessageTypes().getName&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1569" y="240" width="501" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="XzORqDxbFwmmnYt8RqeT-32" value="Start :&amp;nbsp;SSEEventHandler&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;:&amp;nbsp;&lt;/span&gt;configs&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; color: rgb(204, 120, 50);&quot;&gt;, &lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; color: rgb(152, 118, 170);&quot;&gt;converter&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; color: rgb(204, 120, 50);&quot;&gt;, &lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; color: rgb(152, 118, 170);&quot;&gt;orgId&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; color: rgb(204, 120, 50);&quot;&gt;, &lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; color: rgb(152, 118, 170);&quot;&gt;deviceModelId&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; color: rgb(204, 120, 50);&quot;&gt;, &lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; color: rgb(152, 118, 170);&quot;&gt;capabilityMessageTopic&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; color: rgb(204, 120, 50);&quot;&gt;, &lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; color: rgb(152, 118, 170);&quot;&gt;rawMessageTopic&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; color: rgb(204, 120, 50);&quot;&gt;, &lt;/span&gt;&lt;span style=&quot;background-color: rgb(43, 43, 43); color: rgb(169, 183, 198); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;expectedEventName&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; color: rgb(204, 120, 50);&quot;&gt;, &lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; color: rgb(152, 118, 170);&quot;&gt;capabilityId&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; color: rgb(204, 120, 50);&quot;&gt;, &lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; color: rgb(152, 118, 170);&quot;&gt;gh2ApiClient&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; color: rgb(204, 120, 50);&quot;&gt;, &lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; color: rgb(152, 118, 170);&quot;&gt;mqttCoreConfig&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; color: rgb(204, 120, 50);&quot;&gt;, &lt;/span&gt;&lt;span style=&quot;background-color: rgb(43, 43, 43); color: rgb(169, 183, 198); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;newThreadName&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1570" y="290" width="720" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="XzORqDxbFwmmnYt8RqeT-33" value="arrival:&amp;nbsp;handle&lt;span style=&quot;background-color: rgb(43, 43, 43); color: rgb(169, 183, 198); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;(String sourceJson&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; color: rgb(204, 120, 50);&quot;&gt;, &lt;/span&gt;&lt;span style=&quot;background-color: rgb(43, 43, 43); color: rgb(169, 183, 198); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;String eventName)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1574.5" y="350" width="420" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="XzORqDxbFwmmnYt8RqeT-34" value="&lt;pre style=&quot;background-color:#2b2b2b;color:#a9b7c6;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;expectedEventName.equalsIgnoreCase(eventName)&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1574.5" y="390" width="441" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="XzORqDxbFwmmnYt8RqeT-35" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.729;entryY=-0.022;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.309;exitY=1.006;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="XzORqDxbFwmmnYt8RqeT-34" target="ei1pIP2o1uee5ukMiUAw-34">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1590" y="550" as="sourcePoint" />
-            <mxPoint x="1640" y="500" as="targetPoint" />
+            <mxPoint x="380" y="420" as="sourcePoint" />
+            <mxPoint x="430" y="370" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
