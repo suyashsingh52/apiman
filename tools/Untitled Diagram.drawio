@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-28T14:41:00.244Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="lSLe9DsjE278WSp1OaHv" version="23.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-28T17:16:35.403Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="_41yz2fF2WtmIypY8nkU" version="23.1.5" type="github">
   <diagram name="Page-1" id="W_wHjsE_T0vRLPN9on4F">
     <mxGraphModel dx="1266" dy="1773" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -447,8 +447,8 @@
         <mxCell id="CIBjUFG_ZZMUvqZLACDm-10" value="Send Response" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="780" y="-160" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="CIBjUFG_ZZMUvqZLACDm-12" value="&lt;br&gt;(fistName!=&#39;agarwal&#39; and lastName!=&#39;test&#39;) or (age&amp;gt;20 and age &amp;lt;30) and (email not in (&#39;@agarwal&#39;))&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="430" y="-480" width="210" height="90" as="geometry" />
+        <mxCell id="CIBjUFG_ZZMUvqZLACDm-12" value="entity_data_type_operator store data type, applicable operator, send this to UI, they update the value,&amp;nbsp;&lt;br&gt;&lt;br&gt;(fistName!=&#39;agarwal&#39; and lastName!=&#39;test&#39;) or (age&amp;gt;20 and age &amp;lt;30) and (email not in (&#39;@agarwal&#39;))&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="320" y="-510" width="320" height="120" as="geometry" />
         </mxCell>
         <mxCell id="CIBjUFG_ZZMUvqZLACDm-13" value="Parser" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="475" y="-340" width="120" height="60" as="geometry" />
