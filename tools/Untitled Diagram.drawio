@@ -1,16 +1,16 @@
-<mxfile host="app.diagrams.net" modified="2024-02-28T11:30:17.620Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="xX7KC7B0cxRz5bxGn070" version="23.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-28T14:41:00.244Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="lSLe9DsjE278WSp1OaHv" version="23.1.5" type="github">
   <diagram name="Page-1" id="W_wHjsE_T0vRLPN9on4F">
     <mxGraphModel dx="1266" dy="1773" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="CIBjUFG_ZZMUvqZLACDm-16" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.583;exitY=1.008;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="CIBjUFG_ZZMUvqZLACDm-14" target="CIBjUFG_ZZMUvqZLACDm-15">
+        <mxCell id="CIBjUFG_ZZMUvqZLACDm-16" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.583;exitY=1.008;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="CIBjUFG_ZZMUvqZLACDm-14" target="CIBjUFG_ZZMUvqZLACDm-15" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="910" y="-290" as="sourcePoint" />
             <mxPoint x="960" y="-340" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="CIBjUFG_ZZMUvqZLACDm-11" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.4;entryY=-0.042;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryPerimeter=0;" edge="1" parent="1" source="CIBjUFG_ZZMUvqZLACDm-6" target="CIBjUFG_ZZMUvqZLACDm-10">
+        <mxCell id="CIBjUFG_ZZMUvqZLACDm-11" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.4;entryY=-0.042;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryPerimeter=0;" parent="1" source="CIBjUFG_ZZMUvqZLACDm-6" target="CIBjUFG_ZZMUvqZLACDm-10" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1090" y="-340" as="sourcePoint" />
             <mxPoint x="1140" y="-390" as="targetPoint" />
@@ -411,58 +411,67 @@
         <mxCell id="aM5MsyWKR0o3_4G5qAhv-27" value="User API: list all users detail&amp;nbsp;&lt;br&gt;Entity Association: only assoication detail&lt;br&gt;Device get API:&amp;nbsp;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;get api to get the user detail (10 details)&amp;nbsp;&lt;br&gt;get api to entity association(1 user has 5 association)&amp;nbsp;&lt;br&gt;get device api (100 devices details )&amp;nbsp;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;10(usre)*10(each assoication)*(5*10)&amp;nbsp;&lt;br&gt;&lt;br&gt;&lt;br&gt;500*100=5000&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;get entities based on user ids&lt;br&gt;get all records of a single entity association" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1690" y="1400" width="300" height="330" as="geometry" />
         </mxCell>
-        <mxCell id="CIBjUFG_ZZMUvqZLACDm-1" value="DB CALL" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="CIBjUFG_ZZMUvqZLACDm-1" value="DB CALL" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1050" y="-560" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="CIBjUFG_ZZMUvqZLACDm-2" value="Filter Column&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="CIBjUFG_ZZMUvqZLACDm-2" value="Filter Column&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1050" y="-440" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="CIBjUFG_ZZMUvqZLACDm-3" value="Send Response" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="CIBjUFG_ZZMUvqZLACDm-3" value="Send Response from API" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1050" y="-330" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="CIBjUFG_ZZMUvqZLACDm-4" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="CIBjUFG_ZZMUvqZLACDm-1" target="CIBjUFG_ZZMUvqZLACDm-2">
+        <mxCell id="CIBjUFG_ZZMUvqZLACDm-4" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="CIBjUFG_ZZMUvqZLACDm-1" target="CIBjUFG_ZZMUvqZLACDm-2" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1090" y="-390" as="sourcePoint" />
             <mxPoint x="1140" y="-440" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="CIBjUFG_ZZMUvqZLACDm-5" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="CIBjUFG_ZZMUvqZLACDm-2" target="CIBjUFG_ZZMUvqZLACDm-3">
+        <mxCell id="CIBjUFG_ZZMUvqZLACDm-5" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="CIBjUFG_ZZMUvqZLACDm-2" target="CIBjUFG_ZZMUvqZLACDm-3" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1090" y="-390" as="sourcePoint" />
             <mxPoint x="1140" y="-440" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="CIBjUFG_ZZMUvqZLACDm-6" value="select attribute" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="CIBjUFG_ZZMUvqZLACDm-6" value="select attribute" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="770" y="-560" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="CIBjUFG_ZZMUvqZLACDm-7" value="get instance row expression" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="CIBjUFG_ZZMUvqZLACDm-7" value="get instance row expression" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="770" y="-460" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="CIBjUFG_ZZMUvqZLACDm-8" value="parse expression (select and row condition)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="CIBjUFG_ZZMUvqZLACDm-8" value="parse expression (select and row condition)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="748" y="-360" width="160" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="CIBjUFG_ZZMUvqZLACDm-9" value="DB CALL" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="CIBjUFG_ZZMUvqZLACDm-9" value="DB CALL" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="780" y="-260" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="CIBjUFG_ZZMUvqZLACDm-10" value="Send Response" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="CIBjUFG_ZZMUvqZLACDm-10" value="Send Response" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="780" y="-160" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="CIBjUFG_ZZMUvqZLACDm-12" value="&lt;br&gt;(fistName!=&#39;agarwal&#39; and lastName!=&#39;test&#39;) or (age&amp;gt;20 and age &amp;lt;30) and (email not in (&#39;@agarwal&#39;))&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="CIBjUFG_ZZMUvqZLACDm-12" value="&lt;br&gt;(fistName!=&#39;agarwal&#39; and lastName!=&#39;test&#39;) or (age&amp;gt;20 and age &amp;lt;30) and (email not in (&#39;@agarwal&#39;))&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="430" y="-480" width="210" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="CIBjUFG_ZZMUvqZLACDm-13" value="Parser" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="CIBjUFG_ZZMUvqZLACDm-13" value="Parser" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="475" y="-340" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="CIBjUFG_ZZMUvqZLACDm-14" value="first name, last name" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="CIBjUFG_ZZMUvqZLACDm-14" value="first name, last name" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="470" y="-584" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="CIBjUFG_ZZMUvqZLACDm-15" value="Convert to SQL Query" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="CIBjUFG_ZZMUvqZLACDm-15" value="Convert to SQL Query" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="450" y="-240" width="190" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="CIBjUFG_ZZMUvqZLACDm-17" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="CIBjUFG_ZZMUvqZLACDm-15" target="CIBjUFG_ZZMUvqZLACDm-9">
+        <mxCell id="CIBjUFG_ZZMUvqZLACDm-17" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="CIBjUFG_ZZMUvqZLACDm-15" target="CIBjUFG_ZZMUvqZLACDm-9" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="910" y="-290" as="sourcePoint" />
             <mxPoint x="960" y="-340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oAgpIGEndLJXdw4-cCpp-1" value="Filter Row" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1240" y="-380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oAgpIGEndLJXdw4-cCpp-2" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="oAgpIGEndLJXdw4-cCpp-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="900" y="-270" as="sourcePoint" />
+            <mxPoint x="1110" y="-360" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
